@@ -6,6 +6,7 @@
     <title>Interactive Photo Gallery</title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="js/lightbox/lightbox.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
@@ -14,24 +15,36 @@
         <input type="text" id="search" name="search_query" value="" placeholder="Search...">
 
         <section>
-          <a href="#"><img src="photos/thumbnails/01.jpg" alt="Picture 1"></a>
-          <a href="#"><img src="photos/thumbnails/02.jpg" alt="Picture 2"></a>
-          <a href="#"><img src="photos/thumbnails/03.jpg" alt="Picture 3"></a>
-          <a href="#"><img src="photos/thumbnails/04.jpg" alt="Picture 4"></a>
-          <a href="#"><img src="photos/thumbnails/05.jpg" alt="Picture 5"></a>
-          <a href="#"><img src="photos/thumbnails/06.jpg" alt="Picture 6"></a>
-          <a href="#"><img src="photos/thumbnails/07.jpg" alt="Picture 7"></a>
-          <a href="#"><img src="photos/thumbnails/08.jpg" alt="Picture 8"></a>
-          <a href="#"><img src="photos/thumbnails/09.jpg" alt="Picture 9"></a>
-          <a href="#"><img src="photos/thumbnails/10.jpg" alt="Picture 10"></a>
-          <a href="#"><img src="photos/thumbnails/11.jpg" alt="Picture 11"></a>
-          <a href="#"><img src="photos/thumbnails/12.jpg" alt="Picture 12"></a>
+          <a href="photos/fullsize/01.jpg" data-lightbox="Gallery" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields." data-alt="Hay Bales"><img src="photos/thumbnails/01.jpg" alt="Hay Bales"></a>
+
+          <a href="photos/fullsize/02.jpg" data-lightbox="Gallery" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here." data-alt="Lake"><img src="photos/thumbnails/02.jpg" alt="Lake"></a>
+
+          <a href="photos/fullsize/03.jpg" data-lightbox="Gallery" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below." data-alt="Canyon"><img src="photos/thumbnails/03.jpg" alt="Canyon"></a>
+
+          <a href="photos/fullsize/04.jpg" data-lightbox="Gallery" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today." data-alt="Iceberg"><img src="photos/thumbnails/04.jpg" alt="Iceberg"></a>
+
+          <a href="photos/fullsize/05.jpg" data-lightbox="Gallery" data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons." data-alt="Desert"><img src="photos/thumbnails/05.jpg" alt="Desert"></a>
+
+          <a href="photos/fullsize/06.jpg" data-lightbox="Gallery" data-title="Fall is coming, I love when the leaves on the trees start to change color." data-alt="Fall"><img src="photos/thumbnails/06.jpg" alt="Fall"></a>
+
+          <a href="photos/fullsize/07.jpg" data-lightbox="Gallery" data-title="I drove past this plantation yesterday, everything is so green!" data-alt="Plantation"><img src="photos/thumbnails/07.jpg" alt="Plantation"></a>
+
+          <a href="photos/fullsize/08.jpg" data-lightbox="Gallery" data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!" data-alt="Dunes"><img src="photos/thumbnails/08.jpg" alt="Dunes"></a>
+
+          <a href="photos/fullsize/09.jpg" data-lightbox="Gallery" data-title="We enjoyed a quiet stroll down this countryside lane." data-alt="Countryside Lane"><img src="photos/thumbnails/09.jpg" alt="Countryside Lane"></a>
+
+          <a href="photos/fullsize/10.jpg" data-lightbox="Gallery" data-title="Sunset at the coast! The sky turned a lovely shade of orange." data-alt="Sunset"><img src="photos/thumbnails/10.jpg" alt="Sunset"></a>
+
+          <a href="photos/fullsize/11.jpg" data-lightbox="Gallery" data-title="I did a tour of a cave today and the view of the landscape below was breathtaking." data-alt="Cave"><img src="photos/thumbnails/11.jpg" alt="Cave"></a>
+
+          <a href="photos/fullsize/12.jpg" data-lightbox="Gallery" data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in." data-alt="Bluebells"><img src="photos/thumbnails/12.jpg" alt="Bluebells"></a>
         </section>
 
       </main>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/lightbox/lightbox.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
