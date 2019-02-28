@@ -11,14 +11,18 @@ main {
   text-align: center;
 }
 
+input[type="text"] {
+  margin-bottom: 2rem;
+}
+
 section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-input[type="text"] {
-
+a {
+  margin: 1rem;
 }
 
 /* Media queries */
