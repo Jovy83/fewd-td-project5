@@ -1,4 +1,5 @@
 lightbox.option({
   alwaysShowNavOnTouchDevices: true,
-  wrapAround: true
+  wrapAround: true,
+  positionFromTop: 100
 });
