@@ -15,30 +15,30 @@ main {
   text-align: center;
 }
 
-input[type="text"] {
-  text-align: center;
+input[type="search"] {
   width: 50%;
   margin-bottom: 2rem;
   padding: 0.5rem;
   background-color: rgba(239, 240, 241, 1);
   border: 3px solid transparent;
   border-radius: .3125em;
-  transition: all 0.5s ease;
+  transition: background 0.5s, outline 0.5s, border 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
-input[type="text"]:focus {
+input[type="search"]:focus {
   outline: none;
   border: 3px solid #46698B;
   background: #FFFFCC;
 }
 
-section {
+.gallery {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-section a {
+.gallery a {
   margin: 1rem;
 }
 
@@ -48,6 +48,3 @@ section a {
     width: 70%;
   }
 }
-
-/* TODO: figure out the arrow button position for the lightbox */
-/* TODO: figure out how to implement search function */
